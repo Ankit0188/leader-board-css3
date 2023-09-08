@@ -1,6 +1,12 @@
 /* fonts */
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap");
+/* Heading */
+nav {
+  /* width: 1440px; */
+  height: 94px;
+  background: #562eff;
+}
 
 /* common styles */
 body {
@@ -157,10 +163,10 @@ hr {
   .courses {
     grid-template-columns: repeat(2, 1fr);
   }
-  .blogs{
+  .blogs {
     grid-template-columns: repeat(1, 1fr);
   }
-  body{
+  body {
     margin: 20px 50px;
   }
 }
