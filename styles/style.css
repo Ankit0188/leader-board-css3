@@ -7,9 +7,8 @@ header {
   height: 94px;
   background: #562eff;
 }
-nav {
+.navigation {
   display: flex;
-  flex-direction: row;
 }
 .left-side {
   display: flex;
@@ -35,7 +34,7 @@ nav {
   align-items: center;
   color: #fff;
   list-style: none;
-  padding: 10px 0 0 465px;
+  padding: 10px 0 0 460px;
   font-size: 16px;
   padding-bottom: 20px;
 }
@@ -192,6 +191,22 @@ hr {
 
 /* Ipad/Tablet Devices */
 @media only screen and (min-width: 689px) and (max-width: 992px) {
+  header {
+    width: 100%;
+  }
+  .navigation {
+    width: 100%;
+  }
+  .left-side {
+    margin: 5px;
+  }
+  .header-icon {
+    padding: 10px;
+  }
+  .list-item {
+    gap: 20px;
+    padding-left: 250px;
+  }
   .container {
     width: 100%;
   }
