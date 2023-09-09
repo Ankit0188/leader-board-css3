@@ -2,10 +2,46 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap");
 /* Heading */
-nav {
+header {
   /* width: 1440px; */
   height: 94px;
   background: #562eff;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+}
+.left-side {
+  display: flex;
+  align-items: center;
+  margin-left: 490px;
+}
+.header-icon {
+  width: 40.424px;
+  height: 51px;
+  padding: 0px 15px 15px 0;
+}
+.header-title {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 15px;
+}
+.list-item {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  color: #fff;
+  list-style: none;
+  padding: 10px 0 0 465px;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.header-profile {
+  margin: 20px;
+  padding: 5px 30px;
 }
 
 /* common styles */
